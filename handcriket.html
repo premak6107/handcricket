@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cricket</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divice-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+	.box{
+		border:2px solid black;
+	}
+	.box:hover{
+
+		border:2px solid black;
+		background-color: green;
+	}
+</style>
+
+<script>
+	function zero(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=0;
+		if(com!=0){
+			document.getElementById('img').src='download (7).jpg';
+			s=s+0;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+	function one(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=1;
+		if(com!=1){
+			document.getElementById('img').src='download (one).jpg';
+			s=s+1;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+	function two(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=2;
+		if(com!=2){
+			document.getElementById('img').src='images (two).jpg';
+			s=s+2;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+	function three(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=3;
+		if(com!=3){
+			document.getElementById('img').src='images (three).jpg';
+			s=s+3;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+	function four(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=4;
+		if(com!=4){
+			document.getElementById('img').src='images (four).jpg';
+			s=s+4;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+	function five(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=5;
+		if(com!=5){
+			document.getElementById('img').src='images (five).jpg';
+			s=s+5;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+	function six(){
+		var com=Math.floor(Math.random() * 7);
+		document.getElementById('crun').innerHTML=com;
+		document.getElementById('yrun').innerHTML=6;
+		if(com!=6){
+			document.getElementById('img').src='download (six).jpg';
+			s=s+6;
+			document.getElementById('curr').innerHTML=s;
+			if(s>c){
+				document.getElementById('img').src='download (1).jpg';
+				document.getElementById('curr').innerHTML="You won the match !";
+				s=0;
+				alert('You won the match! Please refresh the page');
+			}
+		}else{
+			s=0;
+			var q=document.getElementById('curr').innerHTML;
+			if(c==q){
+				alert('Draw the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Draw";
+				document.getElementById('img').src='downloaddraw.jpg';
+			}else{
+				alert('You loss the match! Please refresh the page');
+				document.getElementById('curr').innerHTML="Out";
+				document.getElementById('img').src='download (4).jpg';
+			}
+		}
+	}
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("h2").show(2000);
+	});
+</script>
+	
+</head>
+<body style="margin-bottom: 20px; background-color:#7ed6df; color: black">
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h2 style="display: none;">HAND CRICKET</h2>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"><img src="F:\WPAGE\prem\hc\download (9).jpg" style="width: 340px; height: 250px;"  id="img"></div>
+			<div class="col-md-4"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-12">
+			<p>Target : </p>
+			<p id="demo"> </p>
+			<script>
+				var s=0;
+				var c=Math.floor(Math.random() * 150) + 1;
+				document.getElementById("demo").innerHTML = c;
+			</script>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-12">
+			<p>Current score : </p>
+			<p id="curr"> -</p>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-6">
+				<p>Computer : </p>
+				<p  id="crun" style="background-color: white; color: black; width: 180px; height: 30px;"><input type="text" name="run"></p>
+			</div>
+			<div class="col-md-6">
+				<p>You : </p>
+				<p  id="yrun" style="background-color: white; color: black; width: 180px; height: 30px;"><input type="text" name="run1"></p>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class=" btn btn-primary text-center box" id="run" onclick="zero()">0</div>
+			<div class=" btn btn-primary text-center box" id="run" onclick="one()">1</div>
+			<div class=" btn btn-primary text-center box" id="run" onclick="two()">2</div>
+			<div class=" btn btn-primary text-center box" id="run" onclick="three()">3</div>
+			<div class=" btn btn-primary text-center box" id="run" onclick="four()">4</div>
+			<div class=" btn btn-primary text-center box" id="run" onclick="five()">5</div>
+			<div class=" btn btn-primary text-center box" id="run" onclick="six()">6</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
